@@ -84,7 +84,7 @@ body {
 .hero-section-subtext {
     font-size: 18px;
     line-height: 1.4em;
-    color: rgb(165, 161, 161);
+    color: var(--hero-text-color);
     font-family: "Gill Sans", sans-serif;
 }
 
