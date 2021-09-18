@@ -60,6 +60,7 @@ body {
 
 .hero-section {
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     align-items: center;
     background-color: var(--main-bg-color);
@@ -197,7 +198,6 @@ body {
 
 .cta-button {
     flex-grow: 1;
-    width: 5%;
     height: 3em;
     background-color: transparent;
     border: 2px solid white;
