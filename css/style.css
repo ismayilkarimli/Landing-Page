@@ -97,6 +97,7 @@ body {
     font-size: 1rem;
     border: 0;
     font-family: "Gill Sans", sans-serif;
+    cursor: pointer;
 }
 
 .hero-image {
