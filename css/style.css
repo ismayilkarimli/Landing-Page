@@ -1,0 +1,222 @@
+/* color variables */
+
+:root {
+    --main-bg-color: #1f2937;
+    --hero-header-color: #f9faf8;
+    --hero-text-color: #e5e7eb;
+    --logo-color: #f9faf8;
+    --button-color: #3882f6;
+    --image-border-color: #3882f6;
+    --cta-bg-color: #3882f6;
+    --info-header-color: #1f2937;
+    --quote-bg-color: #e5e7eb;
+    --quote-color: #1f2937;
+}
+
+/* boilerplate for fixing box-sizing */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* boilerplate over */
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    padding: 20px 15vw;
+}
+
+.logo-text {
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--logo-color);
+    font-family: "Gill Sans", sans-serif;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.header-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--hero-text-color);
+    font-family: "Gill Sans", sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    padding: 70px 15vw;
+}
+
+.hero-section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+
+.hero-section-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--hero-header-color);
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.hero-section-subtext {
+    font-size: 18px;
+    line-height: 1.4em;
+    color: rgb(165, 161, 161);
+    font-family: "Gill Sans", sans-serif;
+}
+
+.hero-section-button {
+    width: 130px;
+    height: 40px;
+    background-color: var(--button-color);
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    border: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.hero-image {
+    border-radius: 10px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    padding: 20px 8vw;
+    margin: 2em 0 7em;
+}
+
+.info-section-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--info-header-color);
+    font-family: "Gill Sans", sans-serif;
+}
+
+.info-section-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-section-image {
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: var(--image-border-color);
+}
+
+.image-caption {
+    text-align: center;
+    width: 200px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--quote-bg-color);
+    padding: 70px 15vw;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--quote-color);
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cta-bg-color);
+    width: 70vw;
+    height: 30%;
+    border-radius: 10px;
+    padding: 30px 200px;
+    color: white;
+    margin: 5em 0;
+}
+
+.cta-text-section {
+    flex-grow: 3;
+}
+
+.cta-header {
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.cta-subtext {
+    font-weight: lighter;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.cta-button {
+    flex-grow: 1;
+    width: 5%;
+    height: 3em;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: "Gill Sans", sans-serif;
+}
+
+footer {
+    display: flex;
+    background-color: var(--main-bg-color);
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+}
